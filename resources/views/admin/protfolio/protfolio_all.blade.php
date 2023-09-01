@@ -9,7 +9,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0">Todos Produtos</h4>
+                                    <h4 class="mb-sm-0">Todos Carros</h4>
 
                                      
 
@@ -23,14 +23,14 @@
             <div class="card">
                 <div class="card-body">
 
-                    <h4 class="card-title">Todos Produtos </h4>
+                    <h4 class="card-title">Todos Carros </h4>
                     
 
                     <table id="datatable" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                         <thead>
                         <tr>
                             <th>ID</th>
-                            <th>Nome do Produtos</th>
+                            <th>Nome dos Carros</th>
                             <th>Categoria</th>
                             <th>Título</th>
                             <th>Imagem</th>

@@ -28,7 +28,7 @@ Galeria | {{ $homeslides->title }}
       
           <div class="section-title">
             <h2>Galeria</h2>
-            <p>Confira nossos produtos de acordo com a categoria.</p>
+            <p>Confira nossos carros de acordo com as categorias</p>
           </div>
       
           <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">

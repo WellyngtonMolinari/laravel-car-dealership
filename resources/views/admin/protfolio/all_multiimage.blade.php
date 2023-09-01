@@ -31,7 +31,7 @@
                         <tr>
                             <th>ID</th>
                             <th>Imagens</th>
-                            <th>Produtos</th>
+                            <th>Carros</th>
                             <th>Ação</th>
                             
                         </thead>

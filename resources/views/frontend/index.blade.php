@@ -12,31 +12,17 @@ Home | {{ $homeslides->title }}
 @include('frontend.home_all.home_slide')
 <!-- End Hero -->
 
-{{-- <!-- ======= Mershan Section ======= -->
+<!-- ======= Mershan Section ======= -->
 <section id="clients" class="clients section-bg">
   <div class="container">
     <div class="swiper-container">
       <div class="swiper-wrapper">
+        
         <div class="swiper-slide">
-          <img src="{{ asset('frontend/assets/img/clients/colgate.png') }}" class="img-fluid" alt="">
+          <img src="{{ asset('frontend/assets/img/clients/ford.png') }}" class="img-fluid" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('frontend/assets/img/clients/oralb.png') }}" class="img-fluid" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="{{ asset('frontend/assets/img/clients/listerine.png') }}" class="img-fluid" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="{{ asset('frontend/assets/img/clients/client-1.png') }}" class="img-fluid" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="{{ asset('frontend/assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="{{ asset('frontend/assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="{{ asset('frontend/assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
+          <img src="{{ asset('frontend/assets/img/clients/renault.png') }}" class="img-fluid" alt="">
         </div>
         <!-- Cars Brands -->
         <div class="swiper-slide">
@@ -59,14 +45,14 @@ Home | {{ $homeslides->title }}
           <img src="{{ asset('frontend/assets/img/clients/chevrolet.png') }}" class="img-fluid" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('frontend/assets/img/clients/client-6.png') }}" class="img-fluid" alt="">
+          <img src="{{ asset('frontend/assets/img/clients/peugeot.png') }}" class="img-fluid" alt="">
         </div>
 
         <!-- Add more swiper-slide elements for other logos -->
       </div>
     </div>
   </div>
-</section> --}}
+</section>
 
 
   <!-- ======= About Us Section ======= -->

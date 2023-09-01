@@ -47,12 +47,12 @@
 
         <li>
             <a class="has-arrow waves-effect">
-                <i class="ri-archive-line"></i>
-                <span>Sessão Produtos</span>
+                <i class="ri-roadster-line"></i>
+                <span>Sessão Carros</span>
             </a>
             <ul class="sub-menu" aria-expanded="false">
-                <li><a href="{{ route('all.portfolio') }}">Todos Produtos</a></li>
-                <li><a href="{{ route('add.portfolio') }}">Adicionar Produtos</a></li>
+                <li><a href="{{ route('all.portfolio') }}">Todos Carros</a></li>
+                <li><a href="{{ route('add.portfolio') }}">Adicionar Carros</a></li>
                  
                 <li><a href="{{ route('all.multi.image') }}">Todas Multi Imagens</a></li>
 
@@ -66,12 +66,12 @@
 
     <li>
         <a class="has-arrow waves-effect">
-            <i class="ri-file-list-2-line"></i>
-            <span>Categoria Produtos</span>
+            <i class="ri-asterisk"></i>
+            <span>Categoria Carros</span>
         </a>
         <ul class="sub-menu" aria-expanded="false">
-            <li><a href="{{ route('all.portfolio.category') }}">Ver Categoria Produtos</a></li>
-            <li><a href="{{ route('add.portfolio.category') }}">Adicionar Categoria Produtos</a></li>
+            <li><a href="{{ route('all.portfolio.category') }}">Ver Categoria Carros</a></li>
+            <li><a href="{{ route('add.portfolio.category') }}">Adicionar Categoria Carros</a></li>
         </ul>
     </li>
 
