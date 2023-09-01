@@ -69,7 +69,7 @@ $portfoliocategory = App\Models\PortfolioCategory::latest()->get();
             <!-- end row -->
 
              <div class="row mb-3">
-                <label for="example-text-input" class="col-sm-2 col-form-label">Imagem do Carro</label>
+                <label for="example-text-input" class="col-sm-2 col-form-label">Imagem de Capa do Carro</label>
                 <div class="col-sm-10">
            <input name="portfolio_image" class="form-control" type="file" id="image">
                 </div>
