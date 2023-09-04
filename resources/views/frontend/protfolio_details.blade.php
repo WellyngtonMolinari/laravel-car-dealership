@@ -53,8 +53,8 @@ Galeria | {{ $homeslides->title }}
               <h3>Informações:</h3>
               <ul>
                 <li><strong>Categoria</strong>: {{ $portfolio->category }}</li>
-                <li><strong>Nome</strong>: {{ $portfolio->portfolio_name }}</li>
-                <li><strong>Título</strong>: {{ $portfolio->portfolio_title }}</li>
+                <li><strong>Título</strong>: {{ $portfolio->portfolio_name }}</li>
+                <li><strong>Sub-Título</strong>: {{ $portfolio->portfolio_title }}</li>
                 <li><strong>Adicionado em</strong>: {{ Carbon\Carbon::parse($portfolio->created_at)->format('d/m/Y') }}</a></li>
                 <li><strong>Atualizado em</strong>: {{ Carbon\Carbon::parse($portfolio->updated_at)->format('d/m/Y') }}</a></li>
               </ul>
