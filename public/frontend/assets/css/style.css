@@ -970,7 +970,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(81, 142, 249, 0.9),rgba(246, 107, 174, 0.9)), 
+  background: linear-gradient(var(--color-primary),rgba(166, 255, 41, 0.9)), 
   url("../img/banner.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
